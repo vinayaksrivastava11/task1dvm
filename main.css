@@ -397,11 +397,17 @@ button:hover{
     }
     
     .menup{
+        width: 70%;
         text-align: left;
+        position: relative;
+        top:-7%;
         transform: translateY(-200%);
         transition: transform .5s ease-in-out; 
+        padding-left:0%;
+        margin:auto;
+        
          
-    }  
+    } 
     .nav input[type="checkbox"]:checked ~ .menup{
         display: block;
         text-align: left;
@@ -423,8 +429,9 @@ button:hover{
     }
     .nav{
         padding-bottom: 0%;
-        width: 100%;
-        padding-left: 7%;
+        width: 77%;
+         padding:auto;
+        margin: auto;
     }
     .hamlines{
         display: block;
