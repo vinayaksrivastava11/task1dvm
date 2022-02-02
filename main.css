@@ -374,7 +374,7 @@ button:hover{
 .nav input[type="checkbox"]{
     opacity: 0%;
 }
-@media screen and (max-width:950px)
+@media screen and (max-width:1100px)
 { 
 
 
